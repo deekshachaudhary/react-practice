@@ -1,0 +1,33 @@
+.Accordion {
+  width: 500px;
+
+  header {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .content {
+    text-align: left;
+
+    .item {
+      list-style-type: ">";
+  
+      &::marker {
+        font-size: 18px;
+      }
+
+      &.open {
+        list-style-type: "v"
+      }
+
+      h5 {
+        padding: 8px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+}

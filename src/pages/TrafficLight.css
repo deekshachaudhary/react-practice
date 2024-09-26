@@ -1,0 +1,49 @@
+.traffic-light {
+  header {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 40px;
+  }
+
+  .body {
+    width: 100px;
+    border: 2px solid #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+  }
+
+  .green, .yellow, .red {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.2;
+  }
+
+  .green {
+    background: rgb(0, 255, 0);
+
+    &.active {
+      opacity: 1;
+    }
+  }
+
+  .yellow {
+    background: yellow;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+  .red {
+    background: red;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}

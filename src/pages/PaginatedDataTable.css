@@ -1,0 +1,41 @@
+.paginated-data-table {
+  .page-size-picker {
+    text-align: right;
+    margin: 20px;
+
+    label {
+      font-size: 16px;
+      margin: 10px;
+    }
+  }
+
+  table {
+    width: fit-content;
+    margin: auto;
+    border: 3px solid grey;
+    border-collapse: collapse; /* Sets whether table borders should collapse into a single border or be separated */
+
+    thead > tr > th {
+      border: 1px solid grey;
+    }
+
+    tr {
+      text-align: left;
+
+      td {
+        border: 1px solid grey;
+      }
+    }
+  }
+
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 20px;
+
+    p {
+      margin: 0;
+    }
+  }
+}

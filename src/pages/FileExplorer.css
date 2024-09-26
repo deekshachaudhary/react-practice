@@ -1,0 +1,39 @@
+.file-explorer {
+  margin: 0 auto;
+
+  header {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 50px;
+  }
+
+  .expandable {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    padding-left: 40px;
+
+    .directory {
+      cursor: pointer;
+
+      .expand-arrow {
+        margin: 10px;
+      }
+  
+      .directory-name {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .content {
+    width: fit-content;
+
+    .file-name {
+      font-size: 18px;
+      padding-left: 40px;
+    }
+  }
+}

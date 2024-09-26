@@ -1,0 +1,61 @@
+.modal-test {
+  header {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 50px;
+  }
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  inset: 0; /* shorthand for top right bottom left */
+}
+
+.modal {
+  z-index: 1;
+  height: 300px;
+  width: 500px;
+  background-color: lightgrey;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+
+  .title {
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+    background: black;
+    color: #fff;
+  }
+
+  .body {
+    flex: 1 0 auto;
+    align-self: flex-start;
+    margin: 20px;
+  }
+
+  .footer {
+    font-size: 20px;
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+
+    .confirm-button {
+      background-color: green;
+      color: white;
+    }
+
+    .cancel-button {
+      background-color: red;
+      color: white;
+    }
+  }
+}

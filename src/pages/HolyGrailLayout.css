@@ -1,0 +1,40 @@
+.holy-container {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  color: black;
+
+  header {
+    width: 100%;
+    flex: 0 0 60px;
+    background-color: tomato;
+  }
+  
+  .body  {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    justify-content: space-between;
+  
+    nav {
+      background-color: coral;
+      flex: 0 1 200px;
+    }
+  
+    main {
+      background-color: moccasin;
+      flex: 1 1 auto;
+    }
+  
+    aside {
+      background-color: sandybrown;
+      flex: 0 1 200px;
+    }
+  }
+  
+  footer {
+    width: 100%;
+    flex: 0 0 100px;
+    background-color: slategrey;
+  }
+}

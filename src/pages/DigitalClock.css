@@ -1,0 +1,60 @@
+.digital-clock {
+  height: 250px;
+  width: 700px;
+  background: black;
+  color: grey;
+  line-height: 200px;
+  font-size: 100px;
+  margin: 100px auto;
+  border: 10px solid grey;
+  border-radius: 10px;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  .hours, .minutes, .seconds {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .segments {
+    height: 150px;
+    width: 60px;
+    position: relative;
+
+    & > * {
+      position: absolute;
+      width: 50px;
+      height: 10px;
+      background-color: grey;
+      margin: 2px;
+      border-radius: 40%;
+    }
+
+    .no-display {
+      display: none;
+    }
+
+    .top-left {
+      transform: rotate(90deg) translate(30px, 30px);
+    }
+    .bottom-left {
+      transform: rotate(90deg) translate(90px, 30px);
+    }
+    .bottom {
+      transform: translate(0px, 120px);
+    }
+    .bottom-right {
+      transform: rotate(90deg) translate(90px, -30px);
+    }
+    .top-right {
+      transform: rotate(90deg) translate(30px, -30px);
+    }
+    .middle {
+      transform: translate(0px, 60px);
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.mortgage-calculator {
+  text-align: center;
+
+  .body {
+    padding: 20px;
+    text-align: start;
+    width: fit-content;
+    margin: auto;
+
+    .field {
+      padding: 10px;
+
+      label {
+        padding: 5px;
+        font-size: 18px;
+      }
+  
+      .input-and-error {
+        display: inline-grid;
+  
+        input {
+          padding: 5px;
+        }
+  
+        .error {
+          color: red;
+          background-color: unset;
+          font-size: 12px;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .result {
+    text-align: start;
+    font-size: 18px;
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+  }
+}
+

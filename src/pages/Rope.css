@@ -1,0 +1,24 @@
+.Rope {
+  text-align: center;
+  width: 1000px;
+
+  .rope-segments-container {
+    position: relative;
+    padding-left: 500px;
+    padding-bottom: 200px;
+  }
+}
+  
+.header {
+  font-weight: 700;
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+}
+  

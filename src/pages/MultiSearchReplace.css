@@ -1,0 +1,23 @@
+.MultiSearchReplace {
+  text-align: center;
+}
+  
+.header {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+}
+
+.error {
+  background-color: white;
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+}
+  

@@ -1,0 +1,42 @@
+.TabNavigation {
+  width: 800px;
+
+  header {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+    .tab {
+      flex: 0 1 auto;
+      width: 200px;
+      font-size: 20px;
+
+      &.active {
+        color: white;
+        background-color: black;
+        position: relative;
+
+        &::after {
+          position: absolute;
+          content: '';
+          border-width: 20px;
+          border-style: solid;
+          border-color: black transparent transparent transparent;
+          margin-top: 25px;
+          left: 40%;
+        }
+      }
+    }
+  }
+
+  .content {
+    font-size: large;
+    text-align: start;
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,43 @@
+.job-board {  
+  .job-board__header {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .job-board__postings {
+    .job-board__postings__posting {
+      background: white;
+      color: black;
+      border: 2px solid black;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      padding: 16px;
+      row-gap: 8px;
+      column-gap: 8px;
+      margin: 16px;
+
+      .job-board__posting__title {
+        margin: 0;
+        text-align: left;
+        flex: 1 0 100%;
+
+        .job-board__posting__title__link {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+
+      .job-board__posting__by, .job-board__posting__date-time {
+        font-size: 16px;
+        flex: 0 0 auto;
+      }
+    }
+  }
+
+  .job-board__load-more-btn {
+    font-size: 24px;
+  }
+}

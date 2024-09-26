@@ -1,0 +1,14 @@
+#office-list {
+  .offices-table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+
+    thead > tr > th, tr > td {
+      border: 1px solid grey;
+    }
+
+    tr > td {
+      text-align: left;
+    }
+  }
+}
