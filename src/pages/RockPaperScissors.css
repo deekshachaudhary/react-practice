@@ -1,0 +1,23 @@
+.rock-paper-scissors {
+  header {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .rock-paper-scissors__scores, .rock-paper-scissors__choices {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rock-paper-scissors__options {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    margin: 24px;
+  }
+
+  .rock-paper-scissors__winner {
+    text-align: center;
+    margin: 24px;
+  }
+}

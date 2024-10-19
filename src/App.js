@@ -29,7 +29,9 @@ import DigitalClock from './pages/DigitalClock';
 import ImageCarousel from './pages/ImageCarousel';
 import JobBoard from './pages/JobBoard';
 import OfficeManagement from './pages/OfficeManagement';
-import { paginatedDataTableUsers, fileExplorerData, imageCarouselData } from './assets/data';
+import RockPaperScissors from './pages/RockPaperScissors';
+import DrumMachine from './pages/DrumMachine';
+import { paginatedDataTableUsers, fileExplorerData, imageCarouselData } from './utils/data';
 
 const App = () => {
   return (
@@ -83,6 +85,8 @@ const App = () => {
           <Route path="imageCarousel" element={<ImageCarousel images={imageCarouselData} />}></Route>
           <Route path="jobBoard" element={<JobBoard />}></Route>
           <Route path="officeManagement" element={<OfficeManagement />}></Route>
+          <Route path="rockPaperScissors" element={<RockPaperScissors />}></Route>
+          <Route path="drumMachine" element={<DrumMachine />}></Route>
           <Route path="test" element={<Test />} />
         </Routes>
       </BrowserRouter>

@@ -6,7 +6,7 @@
 // Task 6: CSS styles for the table and filter
 
 import { useEffect, useState } from "react";
-import { officesData } from "../assets/data";
+import { officesData } from "../utils/data";
 import "./OfficeManagement.css";
 
 export const api = {

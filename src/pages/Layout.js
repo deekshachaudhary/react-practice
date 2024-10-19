@@ -94,6 +94,12 @@ const Layout = () => {
               <Link to="/officeManagement" onClick={toggleMenu}>Office Management</Link>
             </li>
             <li>
+              <Link to="/rockPaperScissors" onClick={toggleMenu}>Rock Paper Scissors</Link>
+            </li>
+            <li>
+              <Link to="/drumMachine" onClick={toggleMenu}>Drum Machine</Link>
+            </li>
+            <li>
               <Link to="/test" onClick={toggleMenu}>Test</Link>
             </li>
           </ul>

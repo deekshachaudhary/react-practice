@@ -17,7 +17,7 @@ const ImageCarousel = ({ images }) => {
 
     document.addEventListener('keydown', handleKeyDown);
 
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
   }, []);
 
   const handlePrevious = () => {
